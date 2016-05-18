@@ -27,3 +27,9 @@ I suggest putting it into crontab, such as like this:
 
 `*/10 * * * * UFLIX_USER=johndoe UFLIX_PASS=topsecret /home/username/bin/uflix_login.pl`
 
+## Output and exit codes
+
+If the script is successful, it will output nothing, and have an exit code of 0
+
+If the script fails, it will exit with a non-zero code, and output some info that
+might help you determine what went wrong.
