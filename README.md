@@ -12,7 +12,7 @@ so I've automated it. I am not affiliated with uFlix at all.
 
 ```
 sudo apt install liblwp-protocol-https-perl
-curl -o uflix_login.pl https://github.com/TJC/..../uflix_login.pl
+curl -o uflix_login.pl https://raw.githubusercontent.com/TJC/uFlix-Login/master/uflix_login.pl
 chmod +x uflix_login.pl
 ```
 
