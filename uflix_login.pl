@@ -72,7 +72,7 @@ sub find_xftoken {
 
 sub is_ip_valid {
     my $r = shift;
-    return not ($r->content =~ /is outdated. Please/);
+    return not ($r->content =~ /New IP detected/i);
 }
 
 # The site looks like it uses an ajax query to find out if the IP is currently valid.
